@@ -1,0 +1,47 @@
+@media(max-width: 800px){
+    .menu{
+        display: none;
+    }
+
+    .menu_mobil img{
+        width: 20%;
+    }
+
+    .menu_mobil {
+        display: grid;
+        place-items: center;
+    }
+
+    footer{
+        background-color: #273A1D; 
+    }
+    footer p{
+        color: #F5EACA;
+    }
+    
+    footer h2{
+        color: #F5EACA;
+    }
+}
+
+@media (min-width: 800px){
+
+/*Footer*/
+
+footer{
+    background-color: #273A1D; 
+}
+
+footer p{
+    color: #F5EACA;
+}
+
+footer h2{
+    color: #F5EACA;
+}
+
+footer img{
+    padding-top: 10px;
+}
+
+}
