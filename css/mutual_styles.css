@@ -43,6 +43,18 @@ body {
 }
 
 @media (min-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
   .menu_mobil {
     display: none;
   }
