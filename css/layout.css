@@ -1,12 +1,21 @@
-/* Footer */
-.grid_1-1-1-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.menu_mobil{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+a.active {
+  color: #62681f;
+  text-decoration: underline;
 }
+
+.brugermenu {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+/* Footer */

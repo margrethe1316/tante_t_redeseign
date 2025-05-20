@@ -1,0 +1,102 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  background-color: #273a1d;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #273a1d;
+  padding: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* giver en skyggeeffekt */
+  z-index: 1000; /* så den ligger ovenpå alt andet */
+}
+.menu {
+  display: none;
+}
+
+.menu_mobil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu_mobil02 {
+  font-family: "Times New Roman", Times, serif;
+  display: block; /* Sørger for, at linket opfører sig som en inline-block (kan have størrelse) */
+  padding: 10px 20px; /* Indre margin (plads omkring teksten) */
+  background-color: #273a1d; /* Baggrundsfarve (blå) */
+  color: white; /* Tekstfarve */
+  text-decoration: none; /* Fjern underline (standard på links) */
+  border-radius: 5px; /* Runde hjørner */
+  font-size: 16px; /* Tekststørrelse */
+  text-align: center; /* Centrer teksten */
+  transition: background-color 0.3s ease; /* Blød overgang ved hover */
+  margin-block: 20px;
+}
+
+body {
+  margin-top: 300px;
+}
+
+@media (min-width: 800px) {
+  .menu_mobil {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center; /* Centrerer hele headeren vandret */
+    align-items: center; /* Centrerer indholdet lodret */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px; /* Juster denne værdi */
+    padding: 10px 5px;
+    background-color: #273a1d;
+    z-index: 1000;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center; /* Centrerer navigationen horisontalt */
+    align-items: center; /* Centrerer navigationen vertikalt */
+    gap: 20px; /* Afstand mellem logo og menu */
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+
+  .menu a {
+    padding: 10px 20px;
+    color: #f5eaca;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .menu a:hover {
+    color: #f5eaca;
+    text-decoration: underline;
+  }
+
+  .logo {
+    height: 50px; /* Giver logoet en passende størrelse */
+    margin-right: 20px; /* Afstand mellem logo og menu */
+  }
+  .menu_mobil {
+    display: none;
+  }
+
+  body {
+    margin-top: 200px;
+  }
+}

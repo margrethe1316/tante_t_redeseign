@@ -1,0 +1,88 @@
+h1 {
+  margin-top: 200px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.logo {
+  display: none;
+}
+
+.knap {
+  display: inline-block; /* Sørger for, at linket opfører sig som en inline-block (kan have størrelse) */
+  padding: 10px 20px; /* Indre margin (plads omkring teksten) */
+  background-color: #273a1d; /* Baggrundsfarve (blå) */
+  color: white; /* Tekstfarve */
+  text-decoration: none; /* Fjern underline (standard på links) */
+  border-radius: 5px; /* Runde hjørner */
+  font-size: 16px; /* Tekststørrelse */
+  text-align: center; /* Centrer teksten */
+  transition: background-color 0.3s ease; /* Blød overgang ved hover */
+  place-content: center;
+}
+
+.knap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #273a1d;
+}
+
+footer p {
+  color: #f5eaca;
+}
+
+footer h2 {
+  color: #f5eaca;
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid_kurv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.k3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.last_child {
+  margin-top: auto;
+  place-items: center;
+}
+
+@media (min-width: 800px) {
+  .grid_kurv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 120px;
+  }
+  .k3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grid_kurv img {
+    width: 50%;
+    height: auto;
+    margin-left: 120px;
+  }
+}
