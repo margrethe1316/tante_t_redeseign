@@ -12,6 +12,36 @@
         place-items: center;
     }
 
+    .tekst_med_baggrund {
+        background-color: rgba(0, 0, 0, 0.5); /* Sort med 50% gennemsigtighed */
+        color: white; /* Tekstfarve */
+        padding: 1em; /* Lidt luft rundt om teksten */
+        display: inline-block; /* Så baggrunden passer til tekstens størrelse */
+        border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
+      }
+    
+      .container {
+        position: relative;
+        width: 100%;
+        max-width: 600px; /* Tilpas efter behov */
+      }
+      
+      .baggrund {
+        width: 100%;
+        display: block;
+      }
+      
+      .tekst_med_baggrund {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 1em;
+        z-index: 1;
+        border-radius: 8px;
+      }
+
     footer{
         background-color: #273A1D; 
     }
@@ -24,7 +54,48 @@
     }
 }
 
+
 @media (min-width: 800px){
+
+    p {
+        display: inline-block;
+        border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
+
+        margin-block: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .tekst_med_baggrund {
+        background-color: rgba(0, 0, 0, 0.5); /* Sort med 50% gennemsigtighed */
+        color: white; /* Tekstfarve */
+        padding: 1em; /* Lidt luft rundt om teksten */
+        display: inline-block; /* Så baggrunden passer til tekstens størrelse */
+        border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
+      }
+    
+      .container {
+        position: relative;
+        width: 200%;
+        max-width: 600px; /* Tilpas efter behov */
+      }
+      
+      .baggrund {
+        width: 100%;
+        display: block;
+      }
+      
+      .tekst_med_baggrund {
+        position: absolute;
+        top: 400px;
+        left: 80px;
+        right: 80px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 1em;
+        z-index: 1;
+        border-radius: 8px;
+      }
 
 /*Footer*/
 

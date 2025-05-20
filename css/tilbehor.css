@@ -1,4 +1,5 @@
 h1 {
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -89,12 +90,8 @@ footer h2 {
     text-align: center;
     height: 100%; /* fylder hele højden */
   }
-
-  .grid_1-1-1 h1 {
-    margin-top: 200px;
-  }
   .grid_1-1-1 img {
-    width: 150px;
+    width: 100%;
     height: auto;
     margin-bottom: 15px;
   }
@@ -116,38 +113,8 @@ footer h2 {
     border-radius: 5px;
   }
 
-  .grind_1-1-1 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin-top: 50px;
-  }
-
   .grid_1-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .footer2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center; /* Centrerer indholdet horisontalt */
-    text-align: center;
-    background-color: white;
-  }
-
-  .footer2 > div {
-    padding: 30px;
-    display: flex;
-    flex-direction: row; /* Sørger for at alt står vertikalt */
-    align-items: center; /* Centrerer indholdet horisontalt */
-    text-align: center;
-    height: 100%; /* fylder hele højden */
-    margin-left: 50px;
-  }
-
-  .footer2 img {
-    width: 8%;
-    height: auto;
   }
 }
