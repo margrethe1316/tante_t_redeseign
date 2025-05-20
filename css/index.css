@@ -66,6 +66,11 @@
         padding-right: 50px;
     }
 
+    .forside_img {
+      width: 50%;
+      height: auto;
+    }
+
     .tekst_med_baggrund {
         background-color: rgba(0, 0, 0, 0.5); /* Sort med 50% gennemsigtighed */
         color: white; /* Tekstfarve */
