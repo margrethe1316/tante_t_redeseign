@@ -42,3 +42,8 @@ h3 {
 p {
   margin: 10px;
 }
+
+a {
+  text-decoration: none;
+  color: #a4a456;
+}
