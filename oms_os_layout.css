@@ -19,4 +19,11 @@
     max-width: 900px;
     margin-inline: auto;
   }
+
+  .some {
+    margin: 40px;
+    margin-top: 90px;
+    gap: 10px;
+    font-weight: 400;
+  }
 }
