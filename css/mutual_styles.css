@@ -151,6 +151,11 @@ footer h2 {
     display: none;
   }
 
+  .takp {
+    display: grid;
+    place-items: center;
+  }
+
   body {
     margin-top: 200px;
   }
