@@ -1,123 +1,153 @@
-@media(max-width: 800px){
-    .menu{
-        display: none;
-    }
+@media (max-width: 800px) {
+  .menu {
+    display: none;
+  }
 
-    .menu_mobil img{
-        width: 20%;
-    }
+  .menu_mobil img {
+    width: 20%;
+  }
 
-    .menu_mobil {
-        display: grid;
-        place-items: center;
-    }
+  .menu_mobil {
+    display: grid;
+    place-items: center;
+  }
 
-    .tekst_med_baggrund {
-        background-color: rgba(0, 0, 0, 0.5); /* Sort med 50% gennemsigtighed */
-        color: white; /* Tekstfarve */
-        padding: 1em; /* Lidt luft rundt om teksten */
-        display: inline-block; /* Så baggrunden passer til tekstens størrelse */
-        border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
-      }
-    
-      .container {
-        position: relative;
-        width: 100%;
-        max-width: 600px; /* Tilpas efter behov */
-      }
-      
-      .baggrund {
-        width: 100%;
-        display: block;
-      }
-      
-      .tekst_med_baggrund {
-        position: absolute;
-        top: 200px;
-        left: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding: 1em;
-        z-index: 1;
-        border-radius: 8px;
-      }
+  .tekst_med_baggrund {
+    background-color: rgba(0, 0, 0, 0.5); /* Sort med 50% gennemsigtighed */
+    color: white; /* Tekstfarve */
+    padding: 1em; /* Lidt luft rundt om teksten */
+    display: inline-block; /* Så baggrunden passer til tekstens størrelse */
+    border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
+  }
 
-    footer{
-        background-color: #273A1D; 
-    }
-    footer p{
-        color: #F5EACA;
-    }
-    
-    footer h2{
-        color: #F5EACA;
-    }
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Tilpas efter behov */
+  }
+
+  .baggrund {
+    width: 100%;
+    display: block;
+  }
+
+  .tekst_med_baggrund {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1em;
+    z-index: 1;
+    border-radius: 8px;
+  }
+
+  footer {
+    background-color: #273a1d;
+  }
+  footer p {
+    color: #f5eaca;
+  }
+
+  footer h2 {
+    color: #f5eaca;
+  }
 }
 
+@media (min-width: 800px) {
+  p {
+    display: inline-block;
+    border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
 
-@media (min-width: 800px){
+    margin-block: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
-    p {
-        display: inline-block;
-        border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
+  .forside_img {
+    width: 100%;
+    height: auto;
+  }
 
-        margin-block: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .forside_img2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+  }
 
-    .forside_img {
-      width: 50%;
-      height: auto;
-    }
+  .tekst_med_baggrund {
+    background-color: rgba(0, 0, 0, 0.5); /* Sort med 50% gennemsigtighed */
+    color: white; /* Tekstfarve */
+    padding: 1em; /* Lidt luft rundt om teksten */
+    display: inline-block; /* Så baggrunden passer til tekstens størrelse */
+    border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
+  }
 
-    .tekst_med_baggrund {
-        background-color: rgba(0, 0, 0, 0.5); /* Sort med 50% gennemsigtighed */
-        color: white; /* Tekstfarve */
-        padding: 1em; /* Lidt luft rundt om teksten */
-        display: inline-block; /* Så baggrunden passer til tekstens størrelse */
-        border-radius: 8px; /* Afrundede hjørner, hvis ønsket */
-      }
-    
-      .container {
-        position: relative;
-        width: 200%;
-        max-width: 600px; /* Tilpas efter behov */
-      }
-      
-      .baggrund {
-        width: 100%;
-        display: block;
-      }
-      
-      .tekst_med_baggrund {
-        position: absolute;
-        top: 400px;
-        left: 80px;
-        right: 80px;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding: 1em;
-        z-index: 1;
-        border-radius: 8px;
-      }
+  .container {
+    position: relative;
+    width: 200%;
+    max-width: 600px; /* Tilpas efter behov */
+  }
 
-/*Footer*/
+  .baggrund {
+    width: 100%;
+    display: block;
+  }
 
-footer{
-    background-color: #273A1D; 
-}
+  .tekst_med_baggrund {
+    position: absolute;
+    top: 216px;
+    left: 966px;
+    right: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2.7em;
+    z-index: 1;
+    border-radius: 8px;
+  }
 
-footer p{
-    color: #F5EACA;
-}
+  /*Footer*/
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 
-footer h2{
-    color: #F5EACA;
-}
+  .footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center; /* Centrerer indholdet horisontalt */
+    text-align: center;
+    background-color: white;
+  }
 
-footer img{
+  .footer2 > div {
+    padding: 30px;
+    display: flex;
+    flex-direction: row; /* Sørger for at alt står vertikalt */
+    align-items: center; /* Centrerer indholdet horisontalt */
+    text-align: center;
+    height: 100%; /* fylder hele højden */
+    margin-left: 50px;
+  }
+
+  .footer2 img {
+    width: 8%;
+    height: auto;
+  }
+
+  footer {
+    background-color: #273a1d;
+  }
+
+  footer p {
+    color: #f5eaca;
+  }
+
+  footer h2 {
+    color: #f5eaca;
+  }
+
+  footer img {
     padding-top: 10px;
-}
-
+  }
 }
