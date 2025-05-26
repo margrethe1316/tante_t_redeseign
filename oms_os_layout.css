@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-top: 90px;
-    max-width: 630px;
+    max-width: 830px;
     margin-inline: auto;
   }
   .order {
@@ -13,9 +13,17 @@
   .familie {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
     gap: 10px;
-    margin-top: 86px;
-    max-width: 677px;
+    margin-top: 90px;
+    max-width: 900px;
     margin-inline: auto;
+  }
+
+  .some {
+    margin: 40px;
+    margin-top: 90px;
+    gap: 10px;
+    font-weight: 400;
   }
 }

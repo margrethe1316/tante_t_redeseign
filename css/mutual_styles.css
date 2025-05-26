@@ -42,7 +42,62 @@ body {
   margin-top: 300px;
 }
 
+footer {
+  margin-top: 50px;
+  background-color: #273a1d;
+}
+
+footer p {
+  color: #f5eaca;
+}
+
+footer h2 {
+  color: #f5eaca;
+}
+
+.footer2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center; /* Centrerer indholdet horisontalt */
+  text-align: center;
+  background-color: white;
+}
+
+.footer2 > div {
+  padding: 30px;
+  display: flex;
+  flex-direction: row; /* Sørger for at alt står vertikalt */
+  align-items: center; /* Centrerer indholdet horisontalt */
+  text-align: center;
+  height: 100%; /* fylder hele højden */
+  margin-left: 50px;
+}
+
+.footer2 img {
+  width: 8%;
+  height: auto;
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
 @media (min-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
   .menu_mobil {
     display: none;
   }
@@ -103,5 +158,33 @@ body {
 
   body {
     margin-top: 200px;
+  }
+
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center; /* Centrerer indholdet horisontalt */
+    text-align: center;
+    background-color: white;
+  }
+
+  .footer2 > div {
+    padding: 30px;
+    display: flex;
+    flex-direction: row; /* Sørger for at alt står vertikalt */
+    align-items: center; /* Centrerer indholdet horisontalt */
+    text-align: center;
+    height: 100%; /* fylder hele højden */
+    margin-left: 50px;
+  }
+
+  .footer2 img {
+    width: 8%;
+    height: auto;
   }
 }

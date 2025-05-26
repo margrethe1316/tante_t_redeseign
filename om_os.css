@@ -9,10 +9,13 @@ img {
   height: auto;
   display: block;
   translate: 35%;
+}
 
+.border {
   border-radius: 10px;
   border: 5px solid #a4a456;
 }
+
 main {
   padding: 20px;
 }
@@ -38,4 +41,9 @@ h3 {
 
 p {
   margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #a4a456;
 }
